@@ -1,0 +1,2 @@
+# bashtion
+simple configuration management
