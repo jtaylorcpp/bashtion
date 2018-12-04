@@ -18,4 +18,8 @@ In fact, for a straight forward system... why do tools drive users from just usi
 Bashtion is a very simple CM solution based on BASH. In many ways; this is what makes
  the most sense for the DevOps and IT shops. 
 
+# Things that Work....
 
+## Agent
+
+Running the_agent_ in local mode currently runs bash scripts.
