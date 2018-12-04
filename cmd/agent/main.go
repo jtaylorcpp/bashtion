@@ -3,8 +3,13 @@ package main
 import (
 	"fmt"
 
+	"github.com/jtaylorcpp/bashtion/cli"
 	"github.com/spf13/cobra"
 )
+
+func init() {
+	rootCmd.AddCommand(cli.LocalProvisionCommand)
+}
 
 var rootCmd = &cobra.Command{
 	Use:   "bashtion-agent",

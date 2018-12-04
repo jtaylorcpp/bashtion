@@ -1,0 +1,4 @@
+kind: script
+type: bash
+content: |
+    ls -alh
